@@ -29,19 +29,19 @@ along with ao-javadoc-resources.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-resources</artifactId><version>1.0.0-POST-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-resources</artifactId><version>1.0.1-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<name>AO Javadoc Resources</name>
-	<url>https://aoindustries.com/${project.artifactId}/</url>
+	<url>https://aoindustries.com/ao-javadoc-resources/</url>
 	<description>Javadoc resources for AO-branded projects.</description>
 	<inceptionYear>2019</inceptionYear>
 
 	<scm>
 		<!-- Can't inherit due to multi-module -->
-		<connection>scm:git:git://github.com/aoindustries/${project.artifactId}.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/${project.artifactId}.git</developerConnection>
-		<url>https://github.com/aoindustries/${project.artifactId}</url>
+		<connection>scm:git:git://github.com/aoindustries/ao-javadoc-resources.git</connection>
+		<developerConnection>scm:git:git@github.com:aoindustries/ao-javadoc-resources.git</developerConnection>
+		<url>https://github.com/aoindustries/ao-javadoc-resources</url>
 		<tag>HEAD</tag>
 	</scm>
 </project>
