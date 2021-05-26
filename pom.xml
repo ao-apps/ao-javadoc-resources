@@ -29,7 +29,7 @@ along with ao-javadoc-resources.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-resources</artifactId><version>1.0.1-POST-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>ao-javadoc-resources</artifactId><version>1.0.2-SNAPSHOT</version>
 	<packaging>bundle</packaging>
 
 	<name>AO Javadoc Resources</name>
