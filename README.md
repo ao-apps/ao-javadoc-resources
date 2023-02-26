@@ -19,7 +19,7 @@ Javadoc resources for AO-branded projects.
 ## Project Links
 * [Project Home](https://oss.aoapps.com/javadoc-resources/)
 * [Changelog](https://oss.aoapps.com/javadoc-resources/changelog)
-* [Maven Central Repository](https://search.maven.org/artifact/com.aoapps/ao-javadoc-resources)
+* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoapps&q=a%3Aao-javadoc-resources)
 * [GitHub](https://github.com/ao-apps/ao-javadoc-resources)
 
 ## Contact Us
