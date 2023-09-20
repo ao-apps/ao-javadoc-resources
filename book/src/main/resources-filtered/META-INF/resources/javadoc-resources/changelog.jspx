@@ -37,7 +37,7 @@ along with ao-javadoc-resources.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2019-10-13T04:36:50-05:00"
-    dateModified="2021-07-03T16:01:49-05:00"
+    dateModified="2023-09-20T15:25:22Z"
   >
     <c:set var="latestRelease" value="1.0.2" />
     <c:if test="${
@@ -52,7 +52,15 @@ along with ao-javadoc-resources.  If not, see <https://www.gnu.org/licenses/>.
         artifactId="@{documented.artifactId}"
         repository="@{nexusUrl}content/repositories/snapshots/"
         scmUrl="@{project.scm.url}"
-      />
+      >
+        <ul>
+          <li>Minimum Java version changed from 1.8 to 11.</li>
+          <li>
+            Removed <code>resources/fonts/dejavu.css</code> that was a workaround for
+            <ao:a href="https://bugs.openjdk.org/browse/JDK-8129828">JDK bug 8129828</ao:a>.
+          </li>
+        </ul>
+      </changelog:release>
     </c:if>
 
     <changelog:release
